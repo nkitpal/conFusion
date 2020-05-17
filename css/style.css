@@ -26,3 +26,11 @@ address{
   margin: 0px;
   color: #0f0f0f;
 }
+.history{
+  margin-bottom: 100px;
+  border-bottom: 1px ridge;
+  padding-bottom: 75px;
+}
+.positions{
+  margin-bottom: 150px;
+}
