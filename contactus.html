@@ -22,13 +22,13 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="index.html"><span><img src="img/logo.png" height="30" width="41" alt=""> </span></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                        <li class="nav-item "><a class="nav-link" href="./index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list"></span> Menu</a></li>
+                        <li class="nav-item active "><a class="nav-link" href="contactus.html"><span class="fa fa-phone "></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -41,9 +41,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
-                </div>
-            </div>
+              <div class="col-12 col-sm-6 ">
+                <img src="img/logo.png" class="img-fluid " alt="">
         </div>
     </header>
 
@@ -93,13 +92,72 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
-            </div>
-             <div class="col-12 col-md">
+                <form>
+                  <div class="form-group row" >
+                    <label for="fn" class="col-md-2 col-form-label " >FirstName:</label>
+                    <div class="col-md-10">
+                      <input id="fn" class=" form-control" type="text" name="firstname" placeholder="enter firstname">
+                    </div>
+
+                  </div>
+                  <div class="form-group row">
+                    <label for="ls" class="col-md-2 col-form-label " >LastName:</label>
+                    <div class="col-md-10">
+                      <input id="ls" class=" form-control" type="text" name="lastname" placeholder="enter lastname">
+                    </div>
+
+                  </div>
+                  <div class="form-group row">
+                    <label for="tel" class="col-md-2 col-form-label" >Telephone:</label>
+                    <div class="col-5 col-md-3">
+                      <input class="form-control"  type="tel" name="tel-area" placeholder="enter area code">
+                    </div>
+                    <div class="col-7 col-md-7">
+                        <input class="form-control" type="tel" name="tel-number" placeholder="enter tel number">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-2">
+                      <label for="em" class="col-form-label">Email:</label>
+                    </div>
+                    <div class="col-md-10">
+                      <input id="em" class="form-control" type="email" name="email" placeholder="enter email">
+                    </div>
+
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-4 offset-md-2">
+                      <div class="form-check">
+                        <input type="checkbox" class=" form-check-input" id="approve" name="approve" value="yes">
+                        <label class="form-check-label" for="approve"> May we contact you?  via:</label>
+                      </div>
+                    </div>
+                    <div class="col-md-3 ">
+                      <select class="form-control" name="via" >
+                        <option value="email">Email</option>
+                        <option value="tel">Telephone</option>
+                      </select>
+
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="feedback" class="col-md-2 col-form-label">Your Feedback:</label>
+                      <div class="col-md-10">
+                          <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                          <div class="offset-md-2 col-md-10">
+                              <button type="submit" class="btn btn-primary">Send Feedback</button>
+                          </div>
+                    </div>
+                  </div>
+
+                </form>
             </div>
        </div>
 
-    </div>
 
     <footer class="footer">
         <div class="container">
